@@ -10,9 +10,9 @@ Reactivates the Windows 8 volume slider in Windows 10.
 Patches an Oracle VM VirtualBox Machine for use with macOS.
 
 # scrolltest
-A test program for endless text.
+The well-known BASIC-script, rewritten in CMD.
 
-# Where some of the code in these programs comes from
+# Code sources
 RiiConnect24Patcher
 MSGuides.com
 stackoverflow.com
