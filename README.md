@@ -1,18 +1,14 @@
-These are all the batch scripts i made.
-
-# MicrosoftOfficeActivator
-An activation program for MS Office 2010 and 2013. This project ironically has the most work put into it, having four versions, but it currently doesn't work properly.
+These are some of the batch scripts i have written.
 
 # OldVolumeWin10
-Reactivates the Windows 8 volume slider in Windows 10.
+Reactivates the Windows 8 volume slider in Windows 10. 
 
 # macOSVMPatcher
-Patches an Oracle VM VirtualBox Machine for use with macOS.
+The only useful program here. Patches a Virtual Machine for use with macOS.
 
 # scrolltest
-The well-known BASIC-script, rewritten in CMD.
+The well-known BASIC program that endlessly repeats the same text string.
 
-# Code sources
-RiiConnect24Patcher
-MSGuides.com
-stackoverflow.com
+# YourAge & IhrAlter
+Another test program that asks for your age and then outputs it, available in english and german.
+
