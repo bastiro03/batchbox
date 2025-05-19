@@ -1,6 +1,8 @@
 @echo off
 cls
-title IhrAlter: Ein Testprogramm von Bastiro03
-set /p a=Wie alt bist du?
-if %a%==1 echo Du bist erst ein Jahr alt? Du machen wohl Witze!
+title IhrAlter
+echo Wie alt bist du?
+set /p a
+if %a%<=1 echo Du Lügner. Niemand kann in so einem jungen Alter einen PC bedienen.
 else echo Du bist also %a% Jahre alt. Sehr interessant.
+pause

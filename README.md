@@ -1,12 +1,14 @@
 # BatchBox
-These are some of the batch scripts i have written.
+This is a collection of some of the batch scripts I've written over the years. I'm no expert, so I'm afraid a lot of them either don't work or just aren't relevant anymore.
 ## OldVolumeWin10
-Reactivates the Windows 8 volume slider in Windows 10 using the Windows registry. 
+Slightly simplifies the process to restore the volume slider from Windows 8 in Windows 10.
 ## macOSVMPatcher
-The most useful program here. Patches a VirtualBox VM for usage with macOS.
+Arguably the most useful program. Patches a VirtualBox VM to make installing macOS on it possible.
 ## scrolltest
-The well-known BASIC program that endlessly repeats the same text string.
-## YourAge & IhrAlter
-Another test program that asks for your age and then outputs it, available in english and german.
+The well-known BASIC program that endlessly repeats the same text string, now ported to batch.
+## YourAge/IhrAlter
+Simply asks for your age and then outputs it. Available in both German and English.
 ## EnableNotificationCenter
-Activates the Notification Center for Windows 10, in case you broke it.
+Forcefully reactivates Windows 10's Notification Center in case you broke it.
+## DeathToASC
+Kills all processes related to Advanced SystemCare, one of those bloatware "cleaner" programs that nobody needs.

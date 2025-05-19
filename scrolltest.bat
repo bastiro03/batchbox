@@ -1,4 +1,4 @@
 @echo off
-:start
-echo This is a test for endless scrolling text.
-goto start
+:loop
+echo This is a test for endlessly repeating text.
+goto loop

@@ -16,11 +16,9 @@ if '%errorlevel%' NEQ '0' (
     exit /B
 
 :gotAdmin
-@echo on
-dism /online /cleanup-image /restorehealth 
-sfc /scannow
-powershell
-Get-AppXPackage -AllUsers |Where-Object {$_.InstallLocation -like “*SystemApps*”} | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register “$($_.InstallLocation)\AppXManifest.xml”}
-Get-AppxPackage | % { Add-AppxPackage -DisableDevelopmentMode -Register “$($_.InstallLocation)\AppxManifest.xml” -verbose }
-@echo off
+taskkill /f /im ascavsvc.exe
+taskkill /f /im ASCService.exe
+taskkill /f /im ASC.exe
+taskkill /f /im ASCTray.exe
+taskkill /f /im Monitor.exe
 pause
